@@ -6,6 +6,7 @@ class DummyActions {
 
   constructor() {
     this.generateActions('updateName');
+    this.generateActions('updateColor');
   }
 
 }

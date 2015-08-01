@@ -7,11 +7,18 @@ class DummyStore {
 
   constructor() {
     this.name = 'awesome';
+    this.colorOptions = ['red', 'green', 'blue'];
+    this.color = '';
   }
 
   @bind(actions.updateName)
   updateName(name) {
     this.name = name;
+  }
+
+  @bind(actions.updateColor)
+  updateColor(color) {
+    this.color = color;
   }
 
 }
