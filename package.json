@@ -1,0 +1,35 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "watch": "webpack-dev-server --hot --inline --progress --colors",
+    "test": "echo \"No unit tests and e2e tests yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewdordal/react-example.git"
+  },
+  "author": "Matthew Dordal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewdordal/react-example/issues"
+  },
+  "homepage": "https://github.com/matthewdordal/react-example",
+  "dependencies": {
+    "alt": "^0.17.1",
+    "babel-runtime": "^5.8.20",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.20",
+    "babel-loader": "^5.3.2",
+    "html-webpack-plugin": "^1.6.0",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
